@@ -57,6 +57,6 @@ Download Credit card approval dataset from UCI dataset [Credit card approval](ht
 ```	
 4. To run backpropogation algorithm, run command 
 ```
-	python test.py
+	python test.py  
 ```
 
