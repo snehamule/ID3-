@@ -1,7 +1,3 @@
-This is decision tree project using ID3 algorithm. This project can work any classification  data set. 
-python version used: 3 and above
-Files : process.py
-        test.py
         
 # ID3 Decision Tree - Machine Learning 
 
@@ -14,6 +10,7 @@ Entropy:
 s – The current (data) set for which entropy is being calculated <br />
 x– Set of classes in s<br />
 p(x) – The probability of the number of elements in class 'x' to the number of elements in set S<br />
+
 
 
 ## Technology / libraries used: <br />
