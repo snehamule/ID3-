@@ -14,11 +14,11 @@ p(x) – The probability of the number of elements in class 'x' to the number of
 
 
 ## Technology / libraries used: <br />
-Python, Scikit learn, Panda, Numpy
+Python, Numpy
 
 ## Setup required:<br />
 python version: 3 or greater<br />
-Libraries : ScikitLearn, Panda,Numpy
+
 
 
 ## Install python <br />
@@ -38,19 +38,15 @@ python -version
 ## Install Libraries<br /> 
 
 **For  osx operating system (mac)**<br />
-* Install Numpy : pip install numpy<br />
-* Install  Panada : pip install pandas<br />
-* Install  Scikitlearn: pip install scipy, scikit-learn<br />
+* Install Numpy : pip install numpy<br /
 
 **For windows operating system**<br />
 * Install numpy : pip install numpy<br />
-* Install pandas : python -m pip install pandas<br />
-* Install  Scikitlearn: pip install -U scikit-learn<br />
 
 
 ## Dataset Download :<br />
 This recommendation system use  Book-Crossing Dataset.
-Download Adult Dataset from UCI dataset [Adult UCI dataset](https://archive.ics.uci.edu/ml/datasets/adult).  
+Download Credit card approval dataset from UCI dataset [Credit card approval](http://archive.ics.uci.edu/ml/datasets/credit+approval).  
 
 ## Run program : <br />
 1. Download code from git  using  git clone .
@@ -61,11 +57,6 @@ Download Adult Dataset from UCI dataset [Adult UCI dataset](https://archive.ics.
 ```	
 4. To run backpropogation algorithm, run command 
 ```
-	python backPropogation_algorithm py
-```
-5. To run same program using scikit learn :
-```
-     python scitkit_learn_backpropogation_algo.py
-
+	python test.py
 ```
 
