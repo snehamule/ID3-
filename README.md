@@ -3,12 +3,24 @@ python version used: 3 and above
 Files : process.py
         test.py
         
-# Income Predictor Application (Deep Learning - Neural Network)
+# ID3 Decision Tree - Machine Learning 
 
 This project is implementaion of decision tree using ID3 algorithm. Decision tree builds classification or regression models in the form of a tree structure. Decision tree break datset to subset until leaf node(decision) remains. Attribute selection is based on entropy. Entropy can be defined as impurity in the attributes. <br />
 This project uses ID3 algorithm , ID3 algorithm is greedy algorithm with no backtrackin. Id3 uses Information gain and Entropy to decide which attribute to select next.
-{\displaystyle H(S)=\sum _{x\in X}-p(x)\log _{2}p(x)}
+```
+Entropy H(S)=\sum _{x\in X}-p(x)\log _{2}p(x)}
+S – The current (data) set for which entropy is being calculated 
+X – Set of classes in S
+p(x) – The probability of the number of elements in class x to the number of elements in set S
+```
+```
+Information gain IG(A,S)=H(S)-\sum _{{t\in T}}p(t)H(t)
+H(S) – Entropy of set {\displaystyle S} S
+T – The subsets created from splitting set  S by attribute A  
+p(t) – The probablity of the number of elements in t to the number of elements in set S
+H(t) – Entropy of subset t
 
+```
 
 
 ## Technology / libraries used: <br />
