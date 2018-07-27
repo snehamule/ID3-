@@ -10,13 +10,10 @@ This project uses ID3 algorithm , ID3 algorithm is greedy algorithm with no back
 
 Entropy:
 
-> Entropy = - p(a)*log(p(a)) - p(b)*log(p(b))
-s – The current (data) set for which entropy is being calculated 
-x– Set of classes in s
-p(x) – The probability of the number of elements in class 'x' to the number of elements in set S
-
-
-
+> Entropy = - p(a)*log(p(a)) - p(b)*log(p(b))<br />
+s – The current (data) set for which entropy is being calculated <br />
+x– Set of classes in s<br />
+p(x) – The probability of the number of elements in class 'x' to the number of elements in set S<br />
 
 
 ## Technology / libraries used: <br />
