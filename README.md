@@ -38,7 +38,7 @@ python -version
 ## Install Libraries<br /> 
 
 **For  osx operating system (mac)**<br />
-* Install Numpy : pip install numpy<br /
+* Install Numpy : pip install numpy<br />
 
 **For windows operating system**<br />
 * Install numpy : pip install numpy<br />
